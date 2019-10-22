@@ -1,4 +1,13 @@
-section {
+#product-overview {
     background-color: lavender; 
-    color: mediumslateblue;  
-} 
+    color: mediumslateblue;
+    font-family: 'Lato', sans-serif;;
+}
+
+#plans {
+    background-color: lightpink;
+}
+
+.section-title {
+    color: orchid;
+}

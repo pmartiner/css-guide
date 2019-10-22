@@ -8,7 +8,9 @@
     <link rel="shortcut icon" href="favicon.png">
     <!-- Usar un link es la mejor práctica porque es reusable y el browser lo puede 
          agregar al caché -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="main.css">
+    
 </head>
 
 <body>
@@ -17,11 +19,11 @@
         <!-- No se recomienda usar el inline styling porque es difícil de manter, 
              de leer y de debugear (porque tendrías que checar elemento por elemento)
              y alterar cada uno, en lugar de aplicar una regla general para todos -->
-        <section>
+        <section id="product-overview">
             <h1>Get the freedom you deserve.</h1>
         </section>
-        <section>
-            <h3>Choose your plan</h3>
+        <section id="plans">
+            <h3 class="section-title">Choose your plan</h3>
         </section>
     </main>
 </body>
